@@ -96,7 +96,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func negativeButtonPressed(_ sender: UIButton) {
-        currentInput = -currentInput
+        if displayResultLabel.text != "0" {
+            currentInput = -currentInput
+        }
     }
     
     @IBAction func percentageButtonPressed(_ sender: UIButton) {
@@ -104,6 +106,7 @@ class ViewController: UIViewController {
             currentInput /= 100
         } else {
             secondOperand = firstOperand / 100 * currentInput
+            currentInput = secondOperand
         }
         stillTyping = false
     }
