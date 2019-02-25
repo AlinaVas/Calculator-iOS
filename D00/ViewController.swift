@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func binaryOperandPressed(_ sender: UIButton) {
-
+        equalitySignPressed(sender)
         operationSign = sender.currentTitle!
         firstOperand = currentInput
         stillTyping = false

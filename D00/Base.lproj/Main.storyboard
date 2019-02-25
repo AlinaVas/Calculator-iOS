@@ -64,7 +64,7 @@
                                                     <action selector="percentageButtonPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="xdg-M7-maf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBF-gI-NNz">
+                                            <button opaque="NO" tag="35" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBF-gI-NNz">
                                                 <rect key="frame" x="270" y="0.0" width="89" height="97"/>
                                                 <color key="backgroundColor" red="0.8616219162940979" green="0.56829392910003662" blue="0.28217127919197083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="37"/>
@@ -72,7 +72,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="98q-DP-ERe"/>
+                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="jaT-v6-sYB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -121,7 +121,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="TbK-Hv-35l"/>
+                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="Owq-pO-4tZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -170,7 +170,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="B2W-VV-lKW"/>
+                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="tQT-Ik-8y6"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -219,7 +219,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="9bN-Ed-WhE"/>
+                                                    <action selector="binaryOperandPressed:" destination="M7n-8o-MlJ" eventType="touchUpInside" id="mKw-zX-a5r"/>
                                                 </connections>
                                             </button>
                                         </subviews>
