@@ -55,7 +55,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func binaryOperandPressed(_ sender: UIButton) {
-        equalitySignPressed(sender)
+        if stillTyping {
+            equalitySignPressed(sender)
+        }
         operationSign = sender.currentTitle!
         firstOperand = currentInput
         stillTyping = false
@@ -70,7 +72,7 @@ class ViewController: UIViewController {
         if stillTyping {
             secondOperand = currentInput
         }
-        
+
         switch operationSign {
         case "+":
             doOperation{$0 + $1}
@@ -98,6 +100,9 @@ class ViewController: UIViewController {
     @IBAction func negativeButtonPressed(_ sender: UIButton) {
         if displayResultLabel.text != "0" {
             currentInput = -currentInput
+            if !stillTyping {
+                secondOperand = currentInput
+            }
         }
     }
     
